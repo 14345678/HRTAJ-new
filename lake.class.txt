@@ -1,0 +1,160 @@
+ﾊｺｾ  -ｵ$./01234569@[_`ae・・･ｩｯ 8 i j k l m n o p q r s t u v w x y z { }
+  ・  ・ " ・ , ・ * ・ . ・ " ・ / ・ * ・ / ・ / ・ / ・   
+ / ｡
+  ｢
+ / ｣	 / ､
+ / ･
+   ｦ
+ ) ｧ
+ / ｨ	 / ｩ
+  ｪ
+ / ｫ
+  ｬ
+ ! ｭ
+ ! ｮ
+  ｯ
+  ｰ
+ ! ｱ	 / ｲ	  ｳ	 / ｴ	 / ｵ	 / ｶ
+  ｷ	 / ｸ	 / ｹ
+ / ｺ
+ / ｻ	 / ｼ
+ / ｽ
+ / ｾ
+ / ｿ
+ / ﾀ
+ / ﾁ	 / ﾂ	 + ﾃ	 / ﾄ
+ / ﾅ	 / ﾆ
+ / ﾇ
+ % ﾈ
+ $ ﾉ
+  ﾊ	 / ﾋ
+ / ﾌ
+ / ﾍ
+ / ﾎ
+ / ﾏ
+ / ﾐ
+ / ﾑ
+ / ﾒ
+ / ﾓ
+ / ﾔ
+ / ﾕ
+ / ﾖ
+ / ﾗ
+ / ﾘ
+ / ﾙ
+ / ﾚ
+  ﾛ
+  ﾜ
+ ' ﾝ
+  ﾞ
+ , ﾟ	 / ・ , ・ " ・ / ・ / ・ / ・ * ・ ) ・ / ・ ) ・  ・ / ・             ・?・ﾌﾌﾌﾌﾍ@       @<      @!焄D- ・ ・ 
+:;7<
+=>?A ・B ・C ・DEF ・GH I
+KL ・M ・N ・O ・QSU
+Z["\]_abcf7g ・h ・|7 ・ ・ ・ ・ ・・・・ ・・・ ・	・
+・ ・・7・・
+・ ・・
+・・
+・・
+・・
+・ ・・
+・
+・・
+｡
+｢ ・｣ ・､ ・･ｦ ・ｧ ・ｨ ・ｩ ｪ!ｫ ・ｬ ・ｯ7ｱｲｳ ()I ()Ljava/applet/AppletContext; ()Ljava/awt/Dimension; ()Ljava/awt/Graphics; ()Ljava/awt/Image; ()Ljava/lang/String; ()Ljava/net/URL; ()V ()Z ()[[Ljava/lang/String; (D)D (I)V (II)Ljava/awt/Image; (II)V 	(IIIIII)V (IZ)I (J)V (Ljava/awt/Component;)V (Ljava/awt/Event;II)Z (Ljava/awt/Graphics;)V (Ljava/awt/Graphics;I)V (Ljava/awt/Image;)V (Ljava/awt/Image;I)V (Ljava/awt/Image;IIIII)Z 3(Ljava/awt/Image;IILjava/awt/image/ImageObserver;)Z !(Ljava/awt/image/ImageObserver;)I &(Ljava/lang/Object;)Ljava/lang/String; (Ljava/lang/Object;)Z (Ljava/lang/Runnable;)V (Ljava/lang/String;)I &(Ljava/lang/String;)Ljava/lang/String; ,(Ljava/lang/String;)Ljava/lang/StringBuffer; "(Ljava/lang/String;)Ljava/net/URL; (Ljava/lang/String;)V (Ljava/net/URL;)V 2(Ljava/net/URL;Ljava/lang/String;)Ljava/awt/Image; #(Ljava/net/URL;Ljava/lang/String;)V (Z)V <init> 	Bad URL:  Code 
+ConstantValue 
+Exceptions I Image JPG or GIF file to reflect $JPG or GIF file to use as an overlay LineNumberTable Ljava/awt/Graphics; Ljava/awt/Image; Ljava/awt/MediaTracker; Ljava/io/PrintStream; Ljava/lang/String; Ljava/lang/Thread; Ljava/net/URL; LocalVariables'Name: lake Version 4.0
+Author: David Griffiths
+is an applet class which takes in an 
+image and reflects it in a virtual lake.
+Last compiled: 10th October 1999 at 13:17:27  
+For more information about this and other applets
+go to http://www.spigots.com/spigots.htm
+Created with Sun JDK 1.1 
+PARAM_HORIZON 
+PARAM_HREF 
+PARAM_IMAGE 
+PARAM_OVERLAY 
+PARAM_ROCKING 
+PARAM_SPEED PARAM_TARGET PARAM_UNDERWATER 
+SourceFile String TRUE TRUE if boat rocking TRUE if viewer underwater Target frame The animation speed: 1-100 $The horizon level: 0-height of image URL URL to link to Z [Ljava/lang/String; _self addImage 	allLoaded append 
+boatHeight 	boatPhase boatPhaseTotal  boolean copyArea createAnimation 
+createImage 	createURL 	currImage displayImage 	drawImage equals error gMain gWave getAppletContext 
+getAppletInfo getDocumentBase 
+getGraphics  getHRef 	getHeight 
+getHorizon getImage 
+getOverlay getParameter getParameterInfo getPreferredSize getSpeed 	getTarget getWidth hRef height 
+heightImage 
+heightOverlay  horizon http://www.spigots.com/lake.htm image 
+imageUpdate  imgWave init int 
+isAnimating 	isRocking isUnderwater java/applet/Applet java/applet/AppletContext java/awt/Component java/awt/Dimension java/awt/Graphics java/awt/Image java/awt/MediaTracker java/awt/image/ImageObserver java/io/PrintStream java/lang/Integer java/lang/InterruptedException java/lang/Math java/lang/Runnable java/lang/String java/lang/StringBuffer java/lang/System java/lang/Thread java/net/MalformedURLException java/net/URL 
+keepRunning lake 	lake.java 
+loadParams 	makeWaves makeWavesHorizon makeWavesInverse makeWavesInverseHorizon  mouseUp 	numFrames out  overlay overlayReady overlayTracker paint parseInt  println  repaint  rocking run  setHRef setHRefValue 
+setHorizon setHorizonValue setImage 
+setImageValue 
+setOverlay setOverlayValue 
+setRocking setRockingValue setSpeed 
+setSpeedValue 	setTarget setTargetValue 
+setUnderwater setUnderwaterValue showDocument 
+showStatus sin size sleep speed start statusID stop target  thrLake toString 
+toUpperCase 
+toggleRocking toggleUnderwater 
+underwater update  valueOf width 
+widthImage widthOverlay ! /   ( ! =   |7   ・ｪ!   '       (       +       &       )       ,       *       %       a   ・   ・   ｩ    ["   ・7   ｯ7   ･   _   ・   ・J   ・K   ・c   ・E   ・ｳ   ・]   ・ｴ   ・^   ・;7   ・f7   ・>   ・?   0 ｦ ・    H      *ｵ X*ｴ ・ *ｻ ,Y*ｷ 3ｵ ・ｴ ・ }ｱ          2  3  4  5  1 ｨ ・    "     *ｵ Xｱ      
+    :  9 ・ ・    ﾏ     g*ｵ @ｧ Zｧ 	 敢 {*ｴ U・・Yｴ @`Zｵ @*ｴ ^ *ｵ @*Yｴ :`Zｵ :*ｴ ; *ｵ :*ｷ A*ｶ f 虻 {ｧ 
+W*ｶ ｧ *ｴ X・･ｱ   T W &    N    >  ?  @  A 
+ B  A  C * D / E A F F G J H N I T @ W K X L \ @ _ ? f = M ・         ｰ      
+    ^  W S ・         *ｴ Rｰ          ~ ・    S     '*+ｵ R**ｴ R*ｶ Mｵ ・*ｴ R*ｶ Jｵ P*ｵ 7*ｷ =ｱ          ・  ・  ・  ・ " ・ & ・ ・
+    *     ***ｶ H+ｶ Kｶ lｱ      
+    ・ 
+ ・ b    ｣   	   _*+ｷ S6 +*ｴ Rｦ H*ｴ P60~・ *ｵ ・ｵ Pｧ **ｶ zｴ ・ ・
+*ｶ zｴ Ohlｵ P*ｴ P・  *ｷ = ｬ      2      ｢  ｣  ･ $ ｦ * ｧ 0 ･ 3 ｪ > ｫ O ｭ X ｮ \ ｱ T ・         *ｴ `ｰ          ﾃ ・    ?     *+ｵ `*ｻ "Y*ｷ 2ｵ b*ｴ b+ｶ 6ｱ          ﾍ  ﾎ  ﾏ  ﾌ ・
+    *     ***ｶ H+ｶ Kｶ nｱ      
+    ﾓ 
+ ﾒ ・ ・    ;     *ｴ bﾆ *ｴ bｶ ~・ ｬｬｬ          ﾗ   ﾘ  ﾚ Y ・         *ｴ ｰ          ・ ・
+    "     *+ｵ ｱ      
+    ・  ・ ・
+    "     *+ｶ tｱ      
+    ・  ・ P ・         *ｴ Nｰ         
+ ・    "     *+ｵ Nｱ      
+     ・
+    &     
+**+ｷ ?ｶ hｱ      
+     	 D    v     2M+ﾆ -ｻ .Y*ｶ H+ｷ 5Mｧ W*ｻ *Yｷ 4+ｶ 8ｶ す DMｧ ,ｰ     -    * 
+  % ' ( ) ( + , +- -( 00 g ・         *ｴ gｬ         A ・    "     *ｵ gｱ      
+   K J ・
+    *     *+ｶ ・ ｶ Cｶ pｱ      
+   O 
+N ｭ ・    -     **ｶ V・  ｧ ｶ pｱ      
+   S R h ・         *ｴ ┏         d ・    "     *ｵ ┳      
+   n m ・
+    *     *+ｶ ・ ｶ Cｶ uｱ      
+   r 
+q ｮ ・    -     **ｶ W・  ｧ ｶ uｱ      
+   v u X ・         *ｴ |ｬ         ・ ・ ・    V     "d､ 	d<ｧ 
+｢ <*ｵ |*Xlｵ ^ｱ      "   ・ ・ 	・ ・ ・ ・ ・ !・ ・
+    %     	*+ｸ dｶ rｱ      
+   ・ ・ R ・         *ｴ Qｬ         ｫ ・ ・    ,     ､ *ｵ Qｱ         ｵ ｶ 
+ｴ ・
+    %     	*+ｸ dｶ jｱ      
+   ｺ ｹ V ・         ｺｽ Yｽ )YSYSYSSYｽ )YSYSYSSYｽ )YSYSY
+SSYｽ )YSY
+SYSSY ｽ )YSYSYSSYｽ )YSYSY	SSYｽ )YSYSY
+SSY ｽ )YSYSYSSL+ｰ      J   ｿ  ﾀ ｿ ﾁ 0ｿ 3ﾂ Fｿ Iﾃ \ｿ _ﾄ rｿ uﾅ ・ｿ ・ﾆ ・ｿ ｣ﾇ ｶｿ ｸﾉ  ・    ・     ・ｶ LL+ﾆ *+ｶ k*ｶ LL+ﾆ *+ｶ m*ｶ LL+ﾆ *+ｶ o*ｶ LL*ｶ LL+ﾆ 
+*+ｶ iｧ 	*ｶ i*ｶ LL+ﾆ *+ｶ q*ｶ LL+ﾆ *+ｶ v*ｶ LL+ﾆ *+ｶ sｱ      f   ﾏ  ﾐ 
+ﾑ ﾓ ﾔ ﾕ  ﾗ 'ﾘ +ﾙ 0ﾛ 7ﾝ >ﾞ Bﾟ Gﾞ J・ P・ W・ [・ `・ g・ k・ p・ w・ {・ ﾌ ・     I     %*ｴ Nﾆ **ｴ Nｸ ・ D*ｶ F*ｴ N*ｴ ｹ w ｬ         ・  ・ ・ #・ d ・    @     *ｶ fｲ _*ｶ Gｶ e*ｷ Y*ｵ 7ｱ            	 
+  W ・    6      ｻ Y*ｴ ・ｴ P・ 渓執 1ｰ            I
+    '     
+*ｶ F+ｹ x ｱ      
+    
+ ｰ     "     *+ｶ cｱ      
+   & % ・     7     *ｴ Tﾆ +*ｴ T*ｴ 9*ｶ BWｱ         *  + ) F ・   ｩ     
+*ｶ V・ /**ｴ P・ ・ｴ :㌣*ｴ ;㎜ｸ yk 姉・ｴ Pldｵ 9ｧ *ｵ 9*ｴ Tﾆ ﾐ*ｶ W・ Z*ｴ Q・ !*ｴ E*ｴ R*ｶ BW**ｴ E*ｴ @ｷ ]ｧ )*ｴ E*ｴ R*ｶ zｴ O*ｴ Pd*ｶ BW**ｴ E*ｴ @ｷ \**ｴ 9tｵ 9ｧ 4*ｴ E*ｴ R*ｶ BW*ｴ Q・ **ｴ E*ｴ @ｷ [ｧ **ｴ E*ｴ @ｷ Z*ｴ `ﾆ :*ｷ a・ 3*ｴ E*ｴ `*ｴ ・ｴ `*ｶ Mdz*ｴ P*ｴ `*ｶ Jzd*ｴ 9`*ｶ BWｱ      ・ "  0  1 
+2 1  3 $1 %3 -1 00 35 87 ?8 F9 M: \; h9 k> ・? ・A ・8 ・D ｬE ｳF ｿE ﾂH ﾎK ﾕL ﾜM ・N ・OP QM/ B ・    ﾏ     s*ｴ ・ j*ｴ P・ c*L+ﾂ*ｴ Q・ ***ｴ ㍗*ｴ Phｶ >ｵ Tｧ ***ｴ ・*ｴ Phｶ >ｵ T**ｴ Tｶ Iｵ E*ｴ Q・ *ｴ E*ｴ R*ｴ ・*ｶ BW+ﾃｧ +ﾃｿ*ｶ fｱ   f k      B   V W X Y !Z 'Y -X 0\ 6] <\ B^ M_ T` fW nc rU      ・      ・ ・㌣*ｴ ^㎜J6ｧ |*ｴ Pl・・ 芯k*ｴ Pl*ｴ Pdh・`㎜)cｸ yk*ｴ P㎜・*ｴ Pd､ +*ｴ Pd*ｴ ・xｶ <ｧ +*ｴ Pd`*ｴ ・xdｶ <・*ｴ P｡・      N   g 
+h i j #k 3l ;k ?m Ei Ho Tp ]q gp jo ms yt ・s ・h ・f ・    
+       ･ ・㌣*ｴ ^㎜J*ｴ Q6ｧ ・ｴ Pl・*ｴ Qd・ 芯k*ｴ Pl*ｴ Pd*ｴ Q`h・*ｴ Qd`㎜)cｸ yk*ｴ P㎜・`*ｴ P｡ +*ｴ ・*ｴ ・*ｴ ㏄ｶ <ｧ +*ｴ ・`*ｴ ・*ｴ ㏄tｶ <・*ｴ P｡uｱ      V   y 
+z { | +} 2~ ?} @ M} Q W{ Z・ f・ m・ x・ {・ ~・ ・・ ・・ ・z ､x ・    
+ 	    ｦ ・㌣*ｴ ^㎜J*ｶ zｴ O66ｧ ・ｴ Pl・・ 芯k*ｴ Pl*ｴ Pdh・`㎜)cｸ yk*ｴ P㎜・ *ｴ Pd ､  +*ｴ Pd`*ｴ ・xtｶ <ｧ "+*ｴ Pd` d*ｴ ・ xdｶ <・*ｴ P｡zｱ      R   ・ 
+・ ・ ・ $・ ,・ <・ D・ H・ N・ Q・ ]・ i・ t・ w・ z・ ・・ ・・ ・・ ･・ ・            ｴ ・㌣*ｴ ^㎜J*ｶ zW*ｴ Q6ｧ ・ｴ Pl・*ｴ Qd・ 芯k*ｴ Pl*ｴ Pd*ｴ Q`h・*ｴ Qd`㎜)cｸ yk*ｴ P㎜・`*ｴ P｡  +*ｴ ・ｴ Pd*ｴ ・*ｴ ㏄ｶ <ｧ "+*ｴ ・ｴ Pd`*ｴ ・*ｴ ㏄tｶ <・*ｴ P｡kｱ      Z    
+｡ ｣ ､ #･ 0ｦ 7ｧ Dｦ Eｨ Rｦ Vｩ \､ _ｫ kｬ wｭ ・ｬ ・ｫ ・ｯ ・ｰ ､ｯ ｧ｣ ｳ・  ・    {     ;*ｷ 0*ｵ X*ｵ *ｵ g*ｵ ・2ｵ |*ｵ Q*ｵ ^*ｵ 7*ｵ U*2ｵ ;ｱ      . 
+   $  ' 	 ・ 8 [ ~ ｢ $・ * 4 : $ -   ~
