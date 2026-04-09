@@ -1,0 +1,297 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE>ｲﾝﾀｰﾈｯﾄ四日市</TITLE>
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<STYLE></STYLE>
+<META content="IBM WebSphere Studio Homepage Builder Version 7.0.0.0 for Windows" name="GENERATOR">
+</HEAD>
+<BODY text="#80ff80" vlink="#ffffff" alink="#ffffff" link="#ffffff" bgcolor="#000000" onload="initMouseEvents();" background="ai/002.jpg">
+<DIV style="width : 739px;height : 17px;top : 4px;left : 0px;
+  position : absolute;
+  z-index : 4;
+  visibility : visible;
+" id="Layer2"><INPUT TYPE="button" VALUE="前のページへ戻る" onClick="history.back()">　　　クリック何回まで出来るでしょうか。・・・・産めよ増やせよ・・・がんばろう？？？。</DIV>
+<DIV style="VISIBILITY: hidden">画像０　　　　　　　　出産限度数：<INPUT size="15" value="120" name="babyc"> 　画像１<IMG id="babyimg" height="43" src="ai/akann.gif" width="35" align="top"><BR>
+</DIV>
+<DIV id="imOa3" style="left : 90px; width : 68px; CLIP: rect(0px 100px 100px 0px); POSITION: absolute; top : 57px;
+  height : 117px;
+  z-index : 2;
+"><IMG src="ai/a_pepl01.gif" width="73" height="117"></DIV>
+<DIV id="sDiv0" style="VISIBILITY: hidden; POSITION: absolute; TOP: 200px;
+  z-index : 3;
+"><FONT face="HG丸ゴシックM-PRO" color="#ff4500" size="5">楽しもう、楽しもう</FONT></DIV>
+<CENTER>
+<DIV id="sDivo" style="VISIBILITY: hidden"><FONT face="HG丸ゴシックM-PRO" color="#ffa500" size="6">これくらいでお許しを</FONT></DIV>
+</CENTER>
+<DIV id="Layer1" style="z-index : 1; left : 176px; VISIBILITY: visible; width : 608px; POSITION: absolute; top : 162px;
+  height : 193px;
+" align="center">
+<DIV><FONT size="-1"><B><FONT color="#00ffff" size="5"><BR>
+ＨＲＴＡＪ</FONT></B><BR>
+<BR>
+</FONT></DIV>
+<DIV><FONT color="#ffffff"><IMG alt="" hspace="0" src="ai/baba.gif" align="baseline" border="0" width="64" height="84"></FONT></DIV>
+<DIV><B>ババも応援</B></DIV>
+<DIV></DIV>
+<DIV></DIV>
+</DIV>
+<SCRIPT language="JavaScript1.2">
+
+
+<!-- Original:  Matt Gabbert (mgabbert@usrtoday.com) -->
+<!-- Web Site:  http://www.nolag.com -->
+
+<!-- This script and many more are available free online at -->
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+<!-- Begin
+Layer1.style.top=0;
+var iii=1
+var iid=1
+var babysrc=document.all("babyimg").src
+//var pikasrc=document.all("pikaimg").src
+
+var nnn=babyc.value;
+//var sen3c=eval(sen3.value);
+var iw;
+
+var ver  = navigator.appVersion;
+var dom  = document.getElementById ? 1 : 0;
+var ie5  = (ver.indexOf("MSIE 5") > -1 && dom) ? 1 : 0;
+var n  = (document.layers);
+var ie = (document.all);
+
+var Woff0set = sDiv0.offsetWidth;
+var Woff1set = babyimg.offsetWidth;
+//var Woff2set = pikaimg.offsetWidth;
+var Woffoset = sDivo.offsetWidth;
+var sizeimg=new Array;
+
+sDiv0.position="absolute";
+
+
+
+
+
+
+
+for (var kk=1; kk<=nnn;kk++){
+//if(Math.round(Math.random()*100) <= sen3c){
+document.write("<DIV id=sDiv"+kk+" style='VISIBILITY: hidden; POSITION: absolute; width: 160px; height: 120px; '><IMG  src='"+babysrc+"' ></DIV>");
+sizeimg[kk]=Woff1set;
+//}else{
+//document.write("<DIV id=sDiv"+kk+" style='VISIBILITY: hidden; POSITION: absolute; width: 160px; height: 120px; '><IMG  src='"+pikasrc+"' ></DIV>");
+//sizeimg[kk]=Woff2set;
+//}
+}
+
+function initMouseEvents() {
+document.onmousedown = mouseDown;
+if (n) document.captureEvents(Event.MOUSEDOWN | Event.MOUSEMOVE);
+}
+function mouseDown(e) {
+		var mousex = (n) ? e.pageX : event.x+document.body.scrollLeft;
+		var mousey = (n) ? e.pageY : event.y+document.body.scrollTop;
+			if(iid>0){
+				for (var k = iii; k < iii+iid; k++)
+   			        	eval('SHOW("sDiv'+k+'")');
+				ihi=(Math.random()*1.5+.2)*(-1+2*Math.round(Math.random()));
+				for(i = 1;i <= iid; i++){
+					iij=iii+i-1
+					eval('moveTo('+iij+','+i+',0,'+mousex+','+mousey+','+ihi+','+sizeimg[iij]+')');
+				}
+   			eval('SHOW("sDiv'+0+'")');
+			eval('moveTo(0,0,0,'+mousex+','+mousey+',1,'+Woff0set+')');
+			}else{
+   			eval('SHOW("sDivo")');
+			eval('moveTo(0,0,0,'+mousex+','+mousey+',1,'+Woffoset+')');
+			}
+
+
+			iii=iii+iid;
+			iid=iid+1;
+			if(iid>9)iid=9
+			if (iii+iid>nnn){
+				iid=nnn-iii+1
+			}
+
+}
+
+function moveTo(iij,i,j, mousex, mousey,ihi,iw){
+	if (j < eval('anim_'+i+'_x.length') ){
+//		var tempx = (eval('anim_'+i+'_x[j]+mousex')-iw/2)*ihi;
+		var tempx = eval('anim_'+i+'_x[j]')*ihi-iw/2+mousex;
+		var tempy = eval('anim_'+i+'_y[j]')+mousey;
+
+//		if(tempy+30 > (document.body.offsetHeight+document.body.scrollTop))
+//		tempy = document.body.offsetHeight+document.body.scrollTop-30;
+//		if(tempx+30 > (document.body.offsetWidth+document.body.scrollLeft))
+//		tempx = document.body.offsetWidth+document.body.scrollLeft-30;
+		eval('document.all.sDiv'+iij+'.style.left = tempx;');
+		eval('document.all.sDiv'+iij+'.style.top  = tempy;');
+
+		j++;
+//		timeout: 50 = fireworks speed, larger number = slower speed
+    		setTimeout("moveTo("+iij+","+i+","+j+","+mousex+","+mousey+","+ihi+","+iw+")",50)
+	}
+	else {
+		if(i==0){
+			eval('HIDE("sDivo")');
+			eval('HIDE("sDiv'+i+'")');
+		}
+
+	}
+
+}
+
+function SHOW(divName){
+eval('document.all.'+divName+'.style.visibility = "visible";');
+}
+
+function HIDE(divName){
+eval('document.all.'+divName+'.style.visibility = "hidden";');
+}
+
+anim_0_x=new  Array( 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0);
+anim_0_y=new  Array( -20,-38,-54,-70,-84,-97,-108,-118,-128,-135,-141,-146,-150,-152,-153,-153,-152,-148);
+anim_1_x=new  Array( -5,-10,-15,-20,-24,-29,-34,-39,-44,-49,-54,-59,-63,-68,-73);
+anim_1_y=new  Array( -51,-94,-128,-153,-169,-176,-174,-164,-145,-117,-80,-34,20,83,155);
+anim_2_x=new  Array( -15,-30,-45,-60,-75,-90,-105,-120,-135,-150,-165,-180,-195,-210,-225);
+anim_2_y=new  Array( -24,-42,-56,-65,-69,-68,-62,-51,-35,-15,11,41,76,116,162);
+anim_3_x=new  Array( 16,31,47,62,78,93,109,124,140,155,171,186,202,217,233,248,264,280,295);
+anim_3_y=new  Array( -55,-102,-143,-177,-204,-224,-238,-244,-244,-237,-222,-202,-174,-139,-98,-49,6,68,137);
+anim_4_x=new  Array( 5,10,16,21,26,31,37,42,47,52,58,63,68,73,78,84,89,94,99);
+anim_4_y=new  Array( -56,-106,-148,-184,-213,-235,-250,-259,-260,-255,-242,-223,-197,-165,-125,-78,-25,35,103);
+anim_5_x=new  Array( 13,26,39,52,65,78,91,104,117,130,143,156,169,182,195,208,221,234,247);
+anim_5_y=new  Array( -7,-12,-16,-18,-19,-19,-16,-13,-8,-1,6,16,27,39,53,68,85,103,123);
+anim_6_x=new  Array( -10,-19,-29,-39,-48,-58,-67,-77,-87,-96,-106,-116,-125,-135,-145,-154);
+anim_6_y=new  Array( -10,-18,-24,-27,-27,-25,-21,-14,-5,6,20,36,55,76,100,126);
+anim_7_x=new  Array( 5,10,15,21,26,31,36,41,46,51,56,62,67,72,77,82,87,92,97,103,108,113,118);
+anim_7_y=new  Array( -13,-25,-34,-42,-48,-53,-55,-56,-55,-53,-48,-42,-34,-24,-13,0,15,32,51,71,93,117,142);
+anim_8_x=new  Array( -7,-15,-22,-29,-37,-44,-51,-58,-66,-73,-80,-88,-95,-102,-110,-117,-124,-132,-139,-146,-154,-161,-168);
+anim_8_y=new  Array( -57,-107,-152,-191,-224,-251,-273,-288,-298,-302,-299,-291,-277,-257,-232,-200,-163,-119,-70,-15,46,113,186);
+anim_9_x=new  Array( 2,4,6,8,10,12,14,16,18,20,21,23,25);
+anim_9_y=new  Array( -51,-90,-119,-138,-145,-142,-128,-103,-67,-21,37,105,183);
+
+//  End -->
+
+
+</SCRIPT> <SCRIPT language="JavaScript">
+<!-- 
+///////////////////////////////////////////////////
+// 
+//
+// 
+///////////////////////////////////////////////////
+
+///////////////////////////////////////////////////
+//
+var dxOa3=400,dyOa3=200;    // 開始位置 (dxOa3：x座標、dyOa3：y座標)
+var hOa3=20;                // 増やすと移動間隔が大きくなります。
+var mouseSpeedOa3=50;       // 移動スピード (1/1000秒)
+var h2Oa3=30;              // 増やすと停止範囲が大きくなります。
+                            // (hOa3より小さくしないで下さい。)
+var spDxOa3=-5,spDyOa3=-15;  // 止まった時のマウスからの位置
+                            // (spDxOa3：x座標、spDyOa3：y座標)
+var moveStopOa3=false;       // 画像の停止の有無です。
+                            // (true：有り、false：無し)
+///////////////////////////////////////////////////
+
+
+var mxOa3=dxOa3,myOa3=dyOa3,moveFlagOa3=true,tiOa3,moveStopFlagOa3=false;
+
+// イベントキャプチャーを設定する部分です。
+if (document.all || document.layers) {
+	if (document.layers) document.captureEvents(Event.MOUSEMOVE || Event.CLICK);
+	document.onmousemove=mouseMoveEvOa3;
+	document.onclick=mouseMoveStopOa3;
+}
+
+// イベントキャプチャーのマウス位置関数の部分です。
+function mouseMoveEvOa3(e) {
+	mxOa3=getPoOa3(e,true);
+
+	myOa3=getPoOa3(e,false);
+}
+
+// イベントキャプチャーのStop関数の部分です。
+
+
+
+
+function mouseMoveStopOa3() {
+	if (moveStopOa3) {
+		moveStopFlagOa3=!moveStopFlagOa3;
+	}
+}
+
+// マウスカーソルの座標を取得する部分です。
+function getPoOa3(e,flag) {
+	if (flag) {
+		if (document.all) return document.body.scrollLeft+event.clientX;
+		if (document.layers) return e.pageX;
+	} else {
+		if (document.all) return document.body.scrollTop+event.clientY;
+		if (document.layers) return e.pageY;
+	}
+}
+
+// 指定した場所に画像を移動させる部分です。
+function setPoOa3(name,x,y) {
+	if (document.all) {
+		document.all(name).style.posLeft=x+spDxOa3;
+		document.all(name).style.posTop=y+spDyOa3;
+	}
+	if (document.layers) document.layers[name].moveTo(x+spDxOa3,y+spDyOa3);
+}
+
+// 移動距離からxy座標を算出する関数です。
+function getXYOa3(x1,y1,x2,y2,l,dl,flag) {
+	var x,y;
+	x=dl/l*(x2-x1)+x1;
+	if (flag==true) return x;
+	if (flag==false) {
+		if (x1-x2==0) {
+			if (y1<y2) return y1+dl;
+			else return y1-dl;
+		} else return (y1-y2)/(x1-x2)*x+y1-(y1-y2)/(x1-x2)*x1;
+	}
+}
+
+// メイン関数です。
+function mouseMoveOa3() {
+	if (document.all || document.layers) {
+		if (!moveStopFlagOa3) {
+			var xx,l;
+			l=Math.abs(Math.sqrt(Math.pow((mxOa3-dxOa3),2)+Math.pow((myOa3-dyOa3),2)));
+			if (l<hOa3 && moveFlagOa3) {
+				dxOa3=mxOa3;
+				dyOa3=myOa3;
+				setPoOa3("imOa3",dxOa3,dyOa3);
+				moveFlagOa3=false;
+			} else {
+				if (l>h2Oa3 || l<=h2Oa3 && moveFlagOa3) {
+					xx=getXYOa3(dxOa3,dyOa3,mxOa3,myOa3,l,hOa3,true);
+					dyOa3=getXYOa3(dxOa3,dyOa3,mxOa3,myOa3,l,hOa3,false);
+					dxOa3=xx;
+					setPoOa3("imOa3",dxOa3,dyOa3);
+					moveFlagOa3=true;
+
+				}
+			}
+		}
+		clearTimeout(tiOa3);
+		tiOa3=setTimeout("mouseMoveOa3()",mouseSpeedOa3);
+	}
+}
+// End -->
+</SCRIPT> <!-- STEP TWO: Insert the onLoad event handler into your BODY tag  -->
+<DIV id="sparks" style="Z-INDEX: 2"><SCRIPT language="JavaScript">
+<!-- 
+mouseMoveOa3();
+// End -->
+</SCRIPT> <!-- Script Size:  5.96 KB --></DIV>
+</BODY>
+</HTML>

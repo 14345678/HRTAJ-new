@@ -1,0 +1,109 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- saved from url=(0050)http://www4.osk.3web.ne.jp/~kitayan/java/himek.htm -->
+<HTML lang=ja><HEAD>
+<TITLE>日めくりカレンダー</TITLE>
+<META content="text/html; charset=Shift_JIS" http-equiv="Content-Type">
+<SCRIPT language=JavaScript src="http://www6.cty-net.ne.jp/~hrtaj/kari/himekuri/himek.files/select.js"></SCRIPT>
+
+<SCRIPT language=JavaScript>
+day = new Date();
+kyou = day.getDate(); //今日の日にちを取得
+var week = new Array("<font color=red>(日)</font>","(月)","(火)","(水)","(木)","(金)","<font color=blue>(土)</font>");
+my_youbi = day.getDay();
+wday = week[my_youbi];
+var spday;
+var gyouji = new Array("元旦","成人の日","節分","建国記念日","雛祭り","春分の日","みどりの日","憲法記念日","国民の休日","こどもの日","海の日","敬老の日","秋分の日","体育の日","文化の日","勤労感謝の日","天皇誕生日","クリスマスイヴ","大晦日","","","","")
+
+day.setDate(1); //最初の日にち（１日）にセット
+month = day.getMonth() + 1; //月を取得
+year = day.getFullYear();　　　　//年を取得
+
+function my_calendar(){
+
+// 祝祭日の計算
+if(month == 1){holiday1 = 1; holiday2 = 14-(day.getDay()+5)%7; holiday3 = -1} //成人の日
+else if(month == 2){holiday1 = 11; holiday2 = -1; holiday3 = -1}
+else if(month == 3){
+ed = 20.8431 + 0.242194 * (year - 1980) - Math.floor((year - 1980)/4); //春分の日
+
+
+holiday1 = Math.floor(ed);
+holiday2 = -1;
+holiday3 = -1;
+}
+else if(month == 4){holiday1 = 29; holiday2 = -1; holiday3 = -1}
+else if(month == 5){holiday1 = 3; holiday2 = 4; holiday3 = 5}
+else if(month == 6){holiday1 = -1; holiday2 = -1; holiday3 = -1}
+else if(month == 7){holiday1 = 21-(day.getDay()+5)%7; holiday2 = -1; holiday3 = -1}
+else if(month == 8){holiday1 = -1; holiday2 = -1; holiday3 = -1}
+else if(month == 9){
+holiday1 = 21-(day.getDay()+5)%7; holiday2 = -1; holiday3 = -1;//敬老の日
+ed = 23.2488 + 0.242194 * (year - 1980) - Math.floor((year - 1980)/4); //秋分の日
+holiday2 = Math.floor(ed);
+holiday3 = -1
+}
+else if(month == 10){holiday1 = 14-(day.getDay()+5)%7; holiday2 = -1; holiday3 = -1} //体育の日
+else if(month == 11){holiday1 = 3; holiday2 = 23; holiday3 = -1}
+else if(month == 12){holiday1 = 23; holiday2 = -1; holiday3 = -1}
+
+
+my_day = "";
+my_day += "<table bgcolor=#ffe4b5 style='font-size:9pt;border-color:#FF6600;border-style:solid'>";
+my_day += "<tr align=center bgcolor=#FF9966><th colspan=7>"+year+"年"+month+"月</th></tr>";
+my_day += "</TR>";
+
+
+if ((kyou==holiday1)||(kyou==holiday2)||(kyou==holiday3)||(my_youbi==0)){
+my_day += "<tr align=center><th><font color=red size=7>"+kyou+"</font><br>"+wday+"</th></tr>";
+}else if (my_youbi==6){
+my_day += "<tr align=center><th><font color=blue size=7>"+kyou+"</font><br>"+wday+"</th></tr>";
+}else{
+my_day += "<tr align=center><th><font size=7>"+kyou+"</font><br>"+wday+"</th></tr>";
+}
+if (month==1&&kyou==holiday1){spday=gyouji[0]}
+if (month==1&&kyou==holiday2){spday=gyouji[1]}
+if (month==2&&kyou==3){spday=gyouji[2]}
+if (month==2&&kyou==holiday1){spday=gyouji[3]}
+if (month==3&&kyou==3){spday=gyouji[4]}
+if (month==3&&kyou==holiday1){spday=gyouji[5]}
+if (month==4&&kyou==holiday1){spday=gyouji[6]}
+if (month==5&&kyou==holiday1){spday=gyouji[7]}
+if (month==5&&kyou==holiday2){spday=gyouji[8]}
+if (month==5&&kyou==holiday3){spday=gyouji[9]}
+if (month==7&&kyou==holiday1){spday=gyouji[10]}
+if (month==9&&kyou==holiday1){spday=gyouji[11]}
+if (month==9&&kyou==holiday2){spday=gyouji[12]}
+if (month==10&&kyou==holiday1){spday=gyouji[13]}
+if (month==11&&kyou==holiday1){spday=gyouji[14]}
+if (month==11&&kyou==holiday2){spday=gyouji[15]}
+if (month==12&&kyou==holiday1){spday=gyouji[16]}
+if (month==12&&kyou==24){spday=gyouji[17]}
+if (month==12&&kyou==31){spday=gyouji[18]}
+
+
+if (spday!=null){
+my_day += "<tr align=center><td><font size=1 color=blue>"+spday+"</font></td></tr>";
+}
+my_day += "</td></tr>";
+my_day += "</TABLE>";
+
+document.write(my_day);
+}
+
+// -->
+</SCRIPT>
+
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 7.0.0.0 for Windows">
+<META http-equiv="Content-Style-Type" content="text/css">
+</HEAD>
+<BODY bgColor=#00ffff>
+<DIV style="width : 80px;height : 33px;top : 0px;left : 0px;
+  position : absolute;
+  z-index : 1;
+  visibility : visible;
+" id="Layer1"><SCRIPT language=JavaScript>
+<!--
+my_calendar();
+// -->
+</SCRIPT></DIV>
+</BODY></HTML>

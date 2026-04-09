@@ -1,0 +1,143 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 7.0.0.0 for Windows">
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<TITLE>水族館</TITLE>
+<STYLE>
+<!--
+BODY {
+  background-attachment: fixed;
+}
+-->
+</STYLE>
+</HEAD>
+<BODY bgcolor="#66ccff" text="#000000" background="ga/001.jpg"><IMG src="ga/f002r.gif" width="0" height="0" id="drop"> <IMG src="ga/f001l.gif" width="0" height="0" id="drop1"> <IMG src="ga/f005r.gif" width="0" height="0" id="drop2"> <IMG src="ga/f003l.gif" width="0" height="0" id="drop3"> <IMG src="ga/f004l.gif" width="0" height="0" id="drop4"> <IMG src="ga/f006l.gif" width="0" height="0" id="drop5"> <IMG src="ga/f001l.gif" width="0" height="0" id="drop6"> <IMG src="ga/ball001.gif" width="0" height="0" id="drop7">　　 <IMG src="ga/ball002.gif" width="0" height="0" id="drop8"> <SCRIPT language="JavaScript1.2">
+<!--
+img = new Array();
+// img[?] = new Array(画像、数、方向、最小スピード、最大スピード、最小揺れ幅、最大揺れ幅、揺れ周期、サイズ);
+img[0] = new Array(document.all("drop").src,5,2,1.1,1.5,20,50,4,75);
+img[1] = new Array(document.all("drop1").src,2,3,1.1,3.10,20,20,4,75);
+img[2] = new Array(document.all("drop2").src,2,2,1.1,4.10,0,20,4,75);
+img[3] = new Array(document.all("drop3").src,2,3,1.1,3.10,0,30,4,75);
+img[4] = new Array(document.all("drop4").src,5,3,1,1,4,10,0,30,4,75);
+img[5] = new Array(document.all("drop5").src,3,3,1,1,5,10,0,10,4,75);
+img[6] = new Array(document.all("drop6").src,1,3,1,1,4,10,0,10,4,75);
+img[7] = new Array(document.all("drop7").src,10,1,4,1,3,5,20,10);
+img[8] = new Array(document.all("drop8").src,2,1,2,1,4,5,20,20);
+
+var ns = (document.layers) ? 1 : 0;
+var ie = (document.all) ? 1 : 0;
+var doc_width = 1000, doc_height = 1800;
+
+if (ns) {
+	doc_width = self.innerWidth;
+	doc_height = self.innerHeight;
+} else if (ie) {
+	doc_width = document.body.clientWidth;
+	doc_height = document.body.clientHeight;
+}
+
+var dx = new Array();
+var xp = new Array();
+var yp = new Array();
+var am = new Array();
+var stl = new Array();
+var stw = new Array();
+
+for (i=0; i<img.length; i++) {
+	dx[i] = new Array();
+	xp[i] = new Array();
+	yp[i] = new Array();
+	am[i] = new Array();
+	stl[i] = new Array();
+	stw[i] = new Array();
+}
+
+var maxsize = 0;
+
+for (i=0; i<img.length; i++) {
+	for (j=0; j<img[i][1]; j++) {
+		dx[i][j] = 0;
+		xp[i][j] = Math.random()*(doc_width-img[i][8]);
+		yp[i][j] = Math.random()*(doc_height-img[i][8]);
+		am[i][j] = Math.random()*(img[i][6]-img[i][5]) + img[i][5];
+		stl[i][j] = img[i][7] + Math.random()/10;
+		stw[i][j] = Math.random()*(img[i][4]-img[i][3]) + img[i][3];
+		if ( maxsize < img[i][8] ) maxsize = img[i][8];
+		if (ns) {
+				document.write("<layer name=\"dot"+ i + "_" + j +"\" left=\"15\" top=\"15\" visibility=\"show\"><img src=\"" + img[i][0] + "\" border=\"0\"></layer>");
+		} else if (ie) {
+			document.write("<div id=\"dot"+ i + "_" + j +"\" style=\"POSITION: absolute; Z-INDEX: "+ i +"; VISIBILITY: visible; TOP: 15px; LEFT: 15px; width:1;\"><img src=\"" + img[i][0] + "\" border=\"0\"></div>");
+		}
+	}
+}
+document.write("<div id=\"damy\" style=\"POSITION: absolute; width:1; Z-INDEX: "+ i +" VISIBILITY: visible; TOP:" + (doc_height+maxsize) + "px; LEFT: " + (doc_width+maxsize) + "px;\">&nbsp;</div>");
+
+function ugoki() {
+	for (i=0; i<img.length; i++) {
+		for (j=0; j<img[i][1]; j++) {
+			if (img[i][2] == 0) {
+				yp[i][j] += stw[i][j];
+				if (yp[i][j] > doc_height+10) {
+
+					xp[i][j] = Math.random()*(doc_width-am[i][j]-img[i][8]);
+					yp[i][j] = 0;
+				}
+				dx[i][j] += stl[i][j];
+				if (j%2) moveLay("dot"+i+"_"+j,xp[i][j]+am[i][j]*Math.sin(dx[i][j]*Math.PI/180),yp[i][j]);
+				else  moveLay("dot"+i+"_"+j,xp[i][j]+am[i][j]*Math.cos(dx[i][j]*Math.PI/180),yp[i][j]);
+			} else if (img[i][2] == 1) {
+				yp[i][j] -= stw[i][j];
+				if (yp[i][j] < 0-img[i][8]) {
+					xp[i][j] = Math.random()*(doc_width-am[i][j]-img[i][8]);
+					yp[i][j] = doc_height+10;
+				}
+				dx[i][j] += stl[i][j];
+				if (j%2) moveLay("dot"+i+"_"+j,xp[i][j]+am[i][j]*Math.sin(dx[i][j]*Math.PI/180),yp[i][j]);
+				else  moveLay("dot"+i+"_"+j,xp[i][j]+am[i][j]*Math.cos(dx[i][j]*Math.PI/180),yp[i][j]);
+			} else if (img[i][2] == 2) {
+				xp[i][j] += stw[i][j];
+				if (xp[i][j] > doc_width+10) {
+					yp[i][j] = Math.random()*(doc_height-am[i][j]-img[i][8]);
+					xp[i][j] = 0-maxsize;
+				}
+				dx[i][j] += stl[i][j];
+				if (j%2) moveLay("dot"+i+"_"+j,xp[i][j],yp[i][j]+am[i][j]*Math.sin(dx[i][j]*Math.PI/180));
+				else  moveLay("dot"+i+"_"+j,xp[i][j],yp[i][j]+am[i][j]*Math.cos(dx[i][j]*Math.PI/180));
+			} else if (img[i][2] == 3) {
+				xp[i][j] -= stw[i][j];
+				if (xp[i][j] < 0-maxsize) {
+					yp[i][j] = Math.random()*(doc_height-am[i][j]-img[i][8]);
+					xp[i][j] = doc_width+10;
+				}
+				dx[i][j] += stl[i][j];
+				if (j%2) moveLay("dot"+i+"_"+j,xp[i][j],yp[i][j]+am[i][j]*Math.sin(dx[i][j]*Math.PI/180));
+				else  moveLay("dot"+i+"_"+j,xp[i][j],yp[i][j]+am[i][j]*Math.cos(dx[i][j]*Math.PI/180));
+			}
+		}
+	}
+	setTimeout("ugoki()",10);
+}
+
+function moveLay(name,x,y) {
+	if (ns) {
+		document.layers[name].top = y;
+		document.layers[name].left = x;
+	} else if (ie) {
+		document.all[name].style.pixelTop = y;
+		document.all[name].style.pixelLeft = x;
+	}
+}
+
+if(ns || ie) ugoki();
+
+// -->
+</SCRIPT>
+<P><BR>
+<BR>
+<BR>
+</P>
+</BODY>
+</HTML>

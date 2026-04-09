@@ -1,0 +1,50 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 7.0.0.0 for Windows">
+<META http-equiv="Content-Style-Type" content="text/css">
+<TITLE></TITLE>
+</HEAD>
+<BODY onload="setTimeout('TIME()',1000);" bgcolor="#000000">
+<DIV style="width : 77px;height : 15px;top : 0px;left : 0px;
+  position : absolute;
+  z-index : 1;
+  visibility : visible;
+" id="Layer1"><SCRIPT language="JavaScript">
+<!--
+document.write('<CENTER><IMG src="l_form.gif"><IMG src="am.gif" name="I1">');
+document.write('<IMG src="8.gif" name="I2"><IMG src="8.gif" name="I3">');
+document.write('<IMG src="point.gif"><IMG src="8.gif"name="I4"><IMG src="8.gif" name="I5">');
+document.write('<IMG src="point.gif"><IMG src="8.gif" name="I6"><IMG src="8.gif" name="I7">');
+document.write('<IMG src="r_form.gif"></CENTER>');
+function TIME(){
+t=new Date;
+H="0"+t.getHours();
+M="0"+t.getMinutes();
+S="0"+t.getSeconds();
+if(12<=H){
+if(H==12){T="pm";}
+else{H="0"+(H-12);T="pm";}}
+else{
+if(H==0){H=""+12;T="am";}
+T="am";}
+H=H.substring(H.length-2,H.length+1);
+M=M.substring(M.length-2,M.length+1);
+S=S.substring(S.length-2,S.length+1);
+H10=H.charAt(0);H1=H.charAt(1);
+M10=M.charAt(0);M1=M.charAt(1);
+S10=S.charAt(0);S1=S.charAt(1);
+setTimeout('TIME()',1000);
+document.I1.src=T+".gif";
+document.I2.src=H10+".gif";
+document.I3.src=H1+".gif";
+document.I4.src=M10+".gif";
+document.I5.src=M1+".gif";
+document.I6.src=S10+".gif";
+document.I7.src=S1+".gif";
+}
+// -->
+</SCRIPT></DIV>
+</BODY>
+</HTML>

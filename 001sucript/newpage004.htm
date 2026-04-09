@@ -1,0 +1,124 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE>楽しみながら作るホームページ</TITLE>
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<STYLE>
+<!--
+-->
+</STYLE>
+<META content="IBM WebSphere Studio Homepage Builder Version 7.0.0.0 for Windows" name="GENERATOR">
+</HEAD>
+<BODY text='background="yoake.jpg"' background="tu/018.jpg">
+<DIV style="width : 114px;height : 14px;top : 8px;left : 20px;
+  position : absolute;
+  z-index : 1;
+  visibility : visible;
+" id="Layer1"><INPUT TYPE="button" VALUE="前のページへ戻る" onClick="history.back()"></DIV>
+<P><B><FONT color="#ffffff"><IMG src="tu/018.jpg" width="1200" height="650" border="0">の様な静かな情景が好きです。あなたはどうですか。</FONT></B><BR>
+</P>
+<IMG id="drop" height="0" src="tu/tan004.gif" width="0"> <SCRIPT language="JavaScript1.2">
+<!-- Original:  Altan (snow@altan.hr) -->
+<!-- Web Site:  http://www.altan.hr/snow -->
+<!-- Begin
+
+var no = 15; // snow number
+var speed = 200; // smaller number moves the snow faster
+
+balloon = new Array();
+balloon[0] = document.all("drop").src;
+
+var maxballoon = 0;  // 画像の数-1
+
+var ns4up = (document.layers) ? 1 : 0;  // browser sniffer
+var ie4up = (document.all) ? 1 : 0;
+var dy, xp, yp;    // coordinate and position variables
+var am, stx, sty;  // amplitude and step variables
+var i, doc_width = 500, doc_height = 600;
+
+if (ns4up) {
+	doc_width = self.innerWidth;
+	doc_height = self.innerHeight - 50;
+} else if (ie4up) {
+	doc_width = document.body.clientWidth;
+	doc_height = document.body.clientHeight -50;
+}
+
+dy = new Array();
+xp = new Array();
+yp = new Array();
+am = new Array();
+stx = new Array();
+sty = new Array();
+j = maxballoon;
+for (i = 0; i < no; ++ i) {
+	dy[i] = 0;                        // set coordinate variables
+	xp[i] = Math.random()*doc_width;  // set position variables
+	yp[i] = Math.random()*(doc_height-50);
+	am[i] = Math.random()*50;         // set amplitude variables
+	stx[i] =10+Math.random()*50; // set step variables
+	sty[i] =Math.random()/5;     // set step variables
+	if (ns4up) {                      // set layers
+		if (i == 0) {
+			document.write("<layer name=\"dot"+ i +"\" left=\"15\" top=\"500\" visibility=\"show\"><img src=\"" + balloon[j] + "\" border=\"0\"></layer>");
+		} else {
+			document.write("<layer name=\"dot"+ i +"\" left=\"15\" top=\"500\" visibility=\"show\"><img src=\"" + balloon[j] + "\" border=\"0\"></layer>");
+	   }
+	} else if (ie4up) {
+		if (i == 0) {
+			document.write("<div id=\"dot"+ i +"\" style=\"POSITION: absolute; Z-INDEX: "+ i +"; VISIBILITY: visible; TOP: 500px; LEFT: 15px;\"><img src=\"" + balloon[j] + "\" border=\"0\"></div>");
+		} else {
+			document.write("<div id=\"dot"+ i +"\" style=\"POSITION: absolute; Z-INDEX: "+ i +"; VISIBILITY: visible; TOP: 500px; LEFT: 15px;\"><img src=\"" + balloon[j] + "\" border=\"0\"></div>");
+    	}
+	}
+	if (j == 0) { j = maxballoon; } else { j -= 1; }
+}
+
+function snowNS() {  // Netscape main animation function
+	for (i = 0; i < no; ++ i) {  // iterate for every dot
+		xp[i] += stx[i];
+		if (xp[i] > doc_width) {
+			xp[i] =-400 ;
+			yp[i] = Math.random()*doc_height;
+			stx[i] =Math.random()*50;
+			sty[i] =Math.random()/5;
+			doc_width = self.innerWidth;
+			doc_height = self.innerHeight -50;
+		}
+		dx[i] += stx[i];
+		document.layers["dot"+i].top = yp[i];
+		document.layers["dot"+i].left = xp[i] + am[i]*Math.sin(dx[i]);
+	}
+	setTimeout("snowNS()", speed);
+}
+
+function snowIE() {  // IE main animation function
+	for (i = 0; i < no; ++ i) {  // iterate for every dot
+		xp[i] += stx[i];
+		if (xp[i] > doc_width) {
+			xp[i] =-400 ;
+			yp[i] = Math.random()*(doc_height-50);
+			stx[i] =10+Math.random()*50;
+			sty[i] =Math.random()/2;
+
+			doc_width = document.body.clientWidth;
+			doc_height = document.body.clientHeight-100;
+		}
+	dy[i] += sty[i];
+	document.all["dot"+i].style.pixelTop = yp[i]+ am[i]*Math.sin(dy[i]);
+	document.all["dot"+i].style.pixelLeft = xp[i] ;
+	}
+	setTimeout("snowIE()", speed);
+}
+
+if (ns4up) {
+	snowNS();
+} else if (ie4up) {
+	snowIE();
+}
+// End -->
+</SCRIPT>
+<NOSCRIPT></NOSCRIPT>
+</BODY>
+</HTML>
