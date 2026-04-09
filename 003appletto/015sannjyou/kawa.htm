@@ -1,0 +1,103 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<META name="copyright" content="appletmaster.de">
+<META name="GENERATOR" content="IBM WebSphere Studio Homepage Builder Version 7.0.0.0 for Windows">
+<META http-equiv="Content-Style-Type" content="text/css">
+<TITLE>山上の川</TITLE>
+</HEAD>
+<BODY bgcolor="#ffff00" background="001.jpg">
+<DIV style="width : 100px;height : 10px;top : 141px;left : 283px;
+  position : absolute;
+  z-index : 5;
+  visibility : visible;
+" id="Layer5"><INPUT type="button" value="運勢を見る" onclick='alert(NowYear+"年"+NowMonth+"月"+NowDate+"日\n今日の運勢は"+mystr+"\nラッキーカラーは"+mystr2+"\nラッキーナンバーは"+luckyNo);'><SCRIPT language="JavaScript">
+<!--//
+imanojikan=new Date();
+NowYear=imanojikan.getYear();
+NowMonth=imanojikan.getMonth()+1;
+NowDate=imanojikan.getDate();
+
+var Omi0="大吉";
+var Omi1="中吉";
+var Omi2="小吉";
+var Omi3="末吉";
+var Omi4="吉";
+var Omi5="凶";
+
+
+var Col0="赤";
+var Col1="黄色";
+var Col2="ブルー";
+var Col3="ピンク";
+var Col4="みどり";
+var Col5="白";
+var Col6="オレンジ";
+var Col7="むらさき";
+
+Omi=Math.floor(Math.random()*6);//配列Omiの数に１を加えた数
+
+Col=Math.floor(Math.random()*8);//配列Colの数に１を加えた数
+
+if(Omi==0){mystr=(Omi0)
+}
+if(Omi==1){mystr=(Omi1)
+}
+if(Omi==2){mystr=(Omi2)
+}
+if(Omi==3){mystr=(Omi3)
+}
+if(Omi==4){mystr=(Omi4)
+}
+if(Omi==5){mystr=(Omi5)
+}
+
+if(Col==0){mystr2=(Col0)
+}
+if(Col==1){mystr2=(Col1)
+}
+if(Col==2){mystr2=(Col2)
+}
+if(Col==3){mystr2=(Col3)
+}
+if(Col==4){mystr2=(Col4)
+}
+if(Col==5){mystr2=(Col5)
+}
+if(Col==6){mystr2=(Col6)
+}
+if(Col==7){mystr2=(Col7)
+}
+
+luckyNo=Math.floor(Math.random()*20);
+
+
+//-->
+</SCRIPT></DIV>
+<P><BR>
+<BR>
+</P>
+<DIV style="width : 465px;height : 16px;top : 3px;left : -1px;
+  position : absolute;
+  z-index : 4;
+  visibility : visible;
+" id="Layer4"><A href="../../index.htm"><INPUT onclick=history.back() value=前へ戻る type=button></A>　<A href="../../index.htm"><IMG src="top.gif" width="85" height="18" border="0"></A>　<A href="../../mokuji.htm"><IMG src="mokuji.gif" width="80" height="20" border="0"></A></DIV>
+<DIV style="width : 445px;height : 115px;top : 144px;left : 422px;
+  position : absolute;
+  z-index : 2;
+  visibility : visible;
+" id="Layer2"><IMG src="bird6.gif" width="445" height="118" border="0"></DIV>
+<DIV style="width : 270px;height : 430px;top : 271px;left : 427px;
+  position : absolute;
+  z-index : 1;
+  visibility : visible;
+" id="Layer1"><APPLET code="lake.class" width="270" height="430">
+  <PARAM name="image" value="002.jpg">
+  <PARAM name="speed" value="8">
+  <PARAM name="horizon" value="50">
+  <PARAM name="overlay" value="002.gif">
+  <IMG src="002.jpg" width="270" height="430" border="0" alt="Limes">
+</APPLET></DIV>
+</BODY>
+</HTML>

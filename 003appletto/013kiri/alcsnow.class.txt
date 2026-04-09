@@ -1,0 +1,57 @@
+ﾊｺｾ  - ﾉ y z ・ ・ ・ ｢    ｱ  t  h  ・ ・ ｣  ・ ｬ  ・ ｭ  ｽ  ・ ｮ	 
+ I
+  ]	  d
+  Q	  O
+  H	 
+ _	  U
+  \
+  M	 
+ @	  E
+  W	  F
+  S	  a
+ 
+ G
+  >
+  e
+ 
+ N
+  A	  J
+ 	 `
+  T
+  [	  ?
+  Z	  K
+   b
+  X	 
+ B
+ 
+ ^
+  c	  C	  L	  R
+   V
+   D
+ 	 [	  Y
+  P ｫ ・ ｪ ｺ ｰ ｺ ・ ・ w ﾄ ・ ｺ k o ｩ p ｻ ｡ j ﾁ ｴ g ・ ﾄ ｵ s f  ・ ﾃ ・ ・ ~ ・ n ﾆ | ・ ｼ ・ ｷ ･ x ｿ ・ ・ ・ ・  ・ ・ } ・ ｶ ・ ｺ ､ ・ k ・ ｲ i { ｳ k ・ ﾀ ｺ l ・ ・ ・ ｦ ﾇ ・ ・ ﾈ ｺ ・ r  offGrph (Ljava/awt/Graphics;)V java/awt/Color  (IIII)V addImage <init>  nextInt 
+SourceFile 
+mainThread (Ljava/lang/Runnable;)V Ljava/util/Random; 
+Exceptions 3(Ljava/awt/Image;IILjava/awt/image/ImageObserver;)Z Ljava/awt/MediaTracker; java/util/Random stop LineNumberTable black getParameter graph  graphic size  repaint 2(Ljava/net/URL;Ljava/lang/String;)Ljava/awt/Image; 	waitForID Ljava/awt/Graphics; start grph ()Ljava/net/URL; 
+getGraphics (I)V 	drawImage (I)I white (Ljava/awt/Color;)V  alcsnow java/lang/Integer java/lang/InterruptedException init  valueOf snows '(Ljava/lang/String;)Ljava/lang/Integer; 
+createImage getImage java/awt/MediaTracker wind gAlc 
+threadsleep java/awt/Component ()Ljava/awt/Graphics; snowY snowX getDocumentBase ()V abs (Ljava/awt/Component;)V ()I [I java/lang/Thread Ljava/awt/Dimension; 
+tento1.gif java/awt/Dimension drawBackSnow Ljava/awt/Image; sleep stopTime run rand 
+threadSleep setColor java/lang/Math java/lang/Runnable java/awt/Graphics update width java/awt/Image fillRect ()Ljava/awt/Dimension; paint mt (II)Ljava/awt/Image;  offScrn 
+ConstantValue J I dim intValue java/applet/Applet Code &(Ljava/lang/String;)Ljava/lang/String; height (Ljava/awt/Image;I)V LocalVariables [Ljava/awt/Image; Ljava/awt/Color; alcsnow.java Ljava/lang/Thread; (J)V stopFlag         n ﾆ     ｷ ･     f      ｩ p     ﾈ ｺ     ｧ ｹ     ・ ・     ・ ・     ・ ｺ     ・ ｺ     ｪ ｺ     ｻ ｡     ・ ﾃ     ｵ s     ・ ・  ｾ  T    t*ｻ 	Yｷ ;ｵ  **ｶ ｵ "***ｴ "ｴ *ｴ "ｴ ｶ 2ｵ 8**ｴ 8ｶ ,ｵ 0*ｶ #M,ﾇ *dｵ <ｧ *,ｸ ｶ ｵ <*ｴ < 
+* <*ｶ #M,ﾇ *Pｵ .ｧ *,ｸ ｶ ｵ .*ｴ .
+｢ *
+ｵ .ｧ *ｴ .隍 
+*襍 .**ｴ <ｼ
+ｵ $**ｴ <ｼ
+ｵ <ｧ H*ｴ $*ｴ  ｶ +*ｴ "ｴ lp*ｴ "ｴ l`O*ｴ *ｴ  ｶ +*ｴ "ｴ lp*ｴ "ｴ l`O・*ｴ <｡ｶ*ｶ #M,ﾇ *ｶ #M,ﾇ *ｶ #M,ﾇ M*ｻ 
+Y*ｷ 4ｵ **ｽ ｵ 7*ｴ 7**ｶ 5,ｶ !S*ｴ **ｴ 72ｶ %*ｴ *ｶ (ｧ Wｱ*ｵ ｱ ail   v   ﾆ 1    
+    )  4 ! ; " ? # E " H % S ' ] ( d , k - o . u - x 0 ・ 2 ・ 3 ・ 2 ・ 4 ・ 5 ｦ 8 ｰ 9 ｺ : ｿ ; ﾕ < ﾟ ; ・ = ・ >  = : B C D E" F) G- H0 L< MD NS Oa Pa Qi Pl Rm Sn Vs    ・  ｾ   ?     *ｴ ﾇ *ｻ  Y*ｷ :ｵ *ｴ ｶ 9ｱ    v       Z   [  \  Y  u ・  ｾ   "     *ｵ ｱ    v   
+    a  `  ｨ ・  ｾ   \     ｧ *ｴ .・ 1ｧ Wｱ*ｶ =*ｴ ﾇ・   
+    v   & 	   e  f  g 
+ f  i  j  l  e  d  ｴ g  ｾ   o     C*ｴ 0ｲ 3ｶ &*ｴ 0*ｴ "ｴ *ｴ "ｴ ｶ *ｴ 0*ｴ 72*ｶ 'W*ｶ /+*ｴ 8ｶ 'Wｱ    v       r 
+ s ! u 2 w 6 y B p  ｯ g  ｾ   "     *+ｶ ｱ    v   
+    ~  }  ､ ・  ｾ  ・    *ｴ 0ｲ ｶ &<ｧ ｲ*ｴ 0*ｴ $.*ｴ .ｶ *ｴ $\.*ｴ  ｶ +p*ｴ 6``O*ｴ \.*ｴ  ｶ +p`l``O*ｴ $.*ｴ "ｴ ｡ 
+*ｴ $O*ｴ $.・ *ｴ $*ｴ "ｴ dO*ｴ .*ｴ "ｴ ｢ *ｴ .・ "*ｴ $*ｴ  ｶ +*ｴ "ｴ pｸ )O*ｴ O・*ｴ <｡L*ｴ  ｶ +dpｪ      C      $   +   1   7   =*ｵ 6ｱ*ｵ 6ｱ*ｵ 6ｱ*ｵ 6ｱ*ｵ 6ｱｱ    v   j    ・ 
+ ・  ・ $ ・ ; ・ T ・ d ・ k ・ t ・ ・ ・ ・ ・ ・ ・ ｴ ・ ｻ ・ ﾆ ・ ・ ・ ・ ・ ・ ・  ・ ・   ｢ ｣
+ ･ ｦ ・  k ・  ｾ        *ｷ -ｱ    v         m    ﾅ

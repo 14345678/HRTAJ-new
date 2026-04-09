@@ -1,0 +1,114 @@
+ﾊｺｾ  -ｶ ・    '.12345678=Jfhimpqrsｫｭ ; < t u v w x y z { | } ~   ・・・・・・・・・・・｣
+ " ・ ) ・ ( ・ * ・ 6 ・ 1 ・ 4 ・ 9 ・ / ・ 0 ・ ( ・ 4 ・ 4 
+ 5 ｡
+ : ｢	 : ｣	 : ､	 : ･	 : ｦ
+ $ ｧ
+ $ ｨ
+ : ｩ	 : ｪ
+ & ｫ
+ 3 ｬ
+ : ｭ	 : ｮ	 : ｯ	 : ｰ
+ , ｱ	 : ｲ
+ 5 ｳ
+ " ｴ
+ : ｵ
+ % ｶ
+ " ｷ
+ ' ｸ
+ : ｹ
+ ' ｺ
+ " ｻ
+ 7 ｼ
+ , ｽ
+ " ｾ
+ : ｿ
+ % ﾀ
+ 5 ﾁ
+ ' ﾂ
+ * ﾃ	 : ﾄ	 : ﾅ	 : ﾆ
+ : ﾇ	 : ﾈ	 : ﾉ
+ : ﾊ
+ : ﾋ	 5 ﾌ
+ : ﾍ
+ / ﾎ
+ : ﾏ
+ + ﾐ
+ 0 ﾑ
+ $ ﾒ
+ $ ﾓ
+ : ﾔ
+ : ﾕ
+ : ﾖ
+ : ﾗ
+ : ﾘ
+ # ﾙ
+ # ﾚ	 : ﾛ	 : ﾜ	 : ﾝ
+ 6 ﾞ	 : ﾟ	 : ・ 3 ・ : ・ : ・ 4 ・ : ・ 3 ・ ( ・ : ・ 6 ・?・      @        ・ ・ ・ 0"> ・? @@A B
+C"D"E"FG ・GH
+I:JKLM<N<O<P
+RS ・T ・U ・V ・W ・X ・Y ・Z[\ ・]^
+` a ・b
+de ・f%gk n ・o9・9・ ・・ ・・!・ ・	・・・ ・・ ・・ ・・・・・・｡｢･:ｦｧ:ｨ ・ｪ#ｫｬ ・ｭ#ｮ$ｯ ・ｰｲｳ ・ｴｵ ・   ()D ()Ljava/applet/AppletContext; ()Ljava/awt/Cursor; ()Ljava/awt/Graphics; ()Ljava/lang/String; ()Ljava/net/URL; ()V ()Z ()[[Ljava/lang/String; (I)I (I)Ljava/awt/Cursor; (I)V (II)Ljava/awt/Image; (II)Ljava/lang/String; 	(II[III)V (Ljava/awt/Component;)V (Ljava/awt/Cursor;)V (Ljava/awt/Event;II)Z (Ljava/awt/Graphics;)V (Ljava/awt/Image;)V (Ljava/awt/Image;I)V (Ljava/awt/Image;IIII[III)V 3(Ljava/awt/Image;IILjava/awt/image/ImageObserver;)Z !(Ljava/awt/image/ImageObserver;)I 0(Ljava/awt/image/ImageProducer;)Ljava/awt/Image; &(Ljava/lang/Object;)Ljava/lang/String; ,(Ljava/lang/Object;)Ljava/lang/StringBuffer; (Ljava/lang/Object;)Z *(Ljava/lang/Object;ILjava/lang/Object;II)V (Ljava/lang/Runnable;)V (Ljava/lang/String;)I %(Ljava/lang/String;)Ljava/lang/Class; &(Ljava/lang/String;)Ljava/lang/String; ,(Ljava/lang/String;)Ljava/lang/StringBuffer; "(Ljava/lang/String;)Ljava/net/URL; (Ljava/lang/String;)V @(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method; (Ljava/net/URL;)V 2(Ljava/net/URL;Ljava/lang/String;)Ljava/awt/Image; #(Ljava/net/URL;Ljava/lang/String;)V (Z)V 1.0 3 <init> 	Bad URL:  Code 
+ConstantValue 
+Exceptions I Image JPG or GIF file to shimmer LineNumberTable Ljava/awt/Graphics; Ljava/awt/Image; Ljava/io/PrintStream; Ljava/lang/Class; Ljava/lang/String; Ljava/lang/Thread; Ljava/net/URL; LocalVariables ｦName: snow Version 1.0
+Author: David Griffiths
+For more information about this and other applets
+go to http://www.spigots.com/spigots.htm
+Created with Sun JDK 1.1 
+PARAM_HREF 
+PARAM_IMAGE PARAM_STRENGTH PARAM_TARGET 
+SNOW_COLOUR 
+SourceFile String 	Synthetic TYPE The storm strength The target frame URL URL to link to Unable to create Pool:  Unable to create next frame:  Unable to grab pixels:  Unable to load image  Z [I [Ljava/lang/String; [[I _self abs addImage append 	arraycopy class$ class$java$awt$Graphics class$java$awt$Image "class$java$awt$image$ImageObserver 
+countPixels 
+createImage 	createURL 
+destPixels 	drawImage equals error  flakeVX flakeX flakeY  forName  gBuffer  gScreen gc getAppletContext 
+getAppletInfo getDefaultCursor getDocumentBase 
+getGraphics  getHRef 	getHeight getImage 
+getMessage 	getMethod getParameter getParameterInfo  getPixs getPredefinedCursor 
+getProperty 	getTarget getWidth 
+grabPixels hRef 
+heightImage http://www.spigots.com/snow.htm image 	imgBuffer 	imgScreen init int  isJDK10 	isRunning java.awt.Graphics java.awt.Image java.awt.image.ImageObserver java.version java/applet/Applet java/applet/AppletContext java/awt/Component java/awt/Cursor java/awt/Graphics java/awt/Image java/awt/MediaTracker  java/awt/image/MemoryImageSource java/awt/image/PixelGrabber java/io/PrintStream java/lang/Class  java/lang/ClassNotFoundException java/lang/Exception java/lang/Integer java/lang/Math java/lang/NoClassDefFoundError java/lang/Runnable java/lang/String java/lang/StringBuffer java/lang/System java/lang/Thread java/lang/Throwable java/net/MalformedURLException java/net/URL jdk10 	mouseExit 	mouseMove  mouseUp 
+movetotFlakes 	nextFrame out paint parseInt 
+pointCursor  println random  repaint run 	setCursor  setHRef setHRefValue 
+setImageValue setStrengthValue 	setTarget setTargetValue showDocument 
+showStatus snow 	snow.java snowCols 
+speedLimit 	srcPixels start stop strError strength 	substring target  thrsnow toString 	totFlakes update  valueOf 	waitForID 
+widthImage yield ! : "  2  j    Q   ・ｮ$   ・o9   ｰ   N<   M<   O<   ,      ｦ   )#      +#      (#      *#      ｴ   g   ｧ:   I:   F   Bk    BR   ｫ   ｭ#   f%   ・9   ･:   ｪ#   D" /     E" /     C" /      ｨ ・    =     *ｻ 6Y*ｷ ?ｵ ・ｵ o*ｴ 憾 ・          +  ,  -  * ｩ ・    "     *ｵ oｱ      
+    1  0 ・ ・    J     ｧ *ｷ q*ｷ r*ｶ yｸ ・ｴ o・敎           :  ;   < 
+ =  >  :  9 ・ ・         ・ｴ ・*ｴ Q*ｴ Mｸ H>ｧq6ｧWｸ xｸ xcgH*ｴ U2\. ・`㌣'k餐O*ｴ U2.*ｴ ・`h､ *ｴ U2*ｴ ・`hOｧ **ｴ U2.*ｴ フ`h｢ *ｴ U2*ｴ フ`hO*ｴ Vﾆ *ｴ V2\.*ｴ U2.
+l`O*ｴ V2*ｴ V2.*ｴ 汁*ｴ 術O*ｴ W2*ｴ W2.``O*ｴ W2.*ｴ l｡ *ｴ W2O*ｴ U2\.hO6ｧ ^6ｧ M*ｴ Q*ｴ W2.`*ｴ 宿*ｴ V2.``*ｴ M`*ｴ Mp*ｴ ・ｴ U2.ｸ D*ｴ ・`hl.O・`｡ｱ・`｡・*ｴ ・`l`l｡桷｡棲      ~    I  K  L  M & N = O Q P b O e Q z R ・ S ・ T ｫ U ﾇ V ﾝ W ・ X ・ Y [
+ \ ]% ^/ _2 `7 a< bV ]W \b [m L・ K・ E ・ ・    ｰ     T*ｻ )Y*ｴ ・ｴ l*ｴ Q*ｴ 捷 <ｶ OL*ｴ YM,ﾂ*ｴ Y+*ｶ RW,ﾃｧ ,ﾃｿｸ ZｱLｲ sｻ 4Yｷ A+ｶ Fｶ 狂 wｱ  $ 0 5     ; < .    :    i   j  k 
+ l  k  j  m $ n 0 m 8 p ; i < r = s S g U ・         
+ｰ      
+    ・  ・ _ ・    ・      _ ｽ  Yｽ 3YSYSYSSYｽ 3YSY
+SY
+SSYｽ 3YSYSYSSYｽ 3YSYSY	SSL+ｰ      * 
+   ・  ・  ・  ・ / ・ 2 ・ E ・ H ・ [ ・ ] ・ `    ・ 
+    篏 (Y*ｷ =M,+ｶ E,ｶ ・+*ｶ iｵ ・+*ｶ aｵ l***ｴ ・ｴ lｶ Nｵ m**ｴ mｶ _ｵ Y*ｴ YN-ﾂ*ｴ Y+*ｶ RW-ﾃｧ -ﾃｿ**ｴ ・ｴ lhｵ M**ｴ Mｼ
+ｵ ・*ｴ Mｼ
+ｵ Qｻ *Y+*ｴ ・ｴ l*ｴ ・*ｴ 捷 >N-ｶ jW*ｴ ・*ｴ Q*ｴ Mｸ Hｱ:ｲ sｻ 4Yｷ Aｶ Fｶ 狂 wｱNｲ sｻ 4Yｷ A-ｶ Fｶ 狂 wｱ  H T Y   ・ ｯ ｰ .  ﾊ ﾊ .    ・ !    	 ｡  ｢  ｣  ､  ･ & ｧ ' ｨ 3 ｧ 6 ｩ A ｫ H ｬ T ｫ \ ｯ i ｰ s ｱ } ｳ ・ ｴ ・ ｵ ・ ｶ ・ ｷ ・ ｳ ・ ｲ ・ ｸ ・ ｹ ・ ｺ ｯ ｸ ｰ ｼ ｲ ｽ ﾉ ｸ ﾊ ﾀ ﾋ ﾁ ・ ・ ・   8     ﾈ+ｸ u=
+､ *
+ｵ ・ ｢ 
+*ｵ ・ *ｵ ・*ｴ M
+*ｴ ㌧hlｵ ・
+*ｴ ㍗ｵ ・*ｴ ・ﾅ !ｵ V**ｴ ・ﾅ !ｵ U**ｴ ・ﾅ !ｵ W>ｧ U6ｧ C*ｴ U2ｸ x 組*ｴ ョk三*ｴ V2ｸ x*ｴ 順k三*ｴ W2ｸ x*ｴ l㌣三・*ｴ 牽ｺ・｡ｬｱ      ^    ﾚ  ﾜ 
+ ﾝ  ﾜ  ﾞ  ﾟ  ﾞ ! ・ & ・ 9 ・ D ・ Q ・ ^ ・ k ・ p ・ v ・ ・ ・ ・ ・ ・ ・  ・ ｳ ・ ｿ ・ ﾇ ﾙ ・    U     )**ｶ ^+ｶ bM,ﾆ 	*,ｶ fｱ*ｻ 4Yｷ A+ｶ Gｶ 狭 Tｱ           
+    (  c ・         *ｴ 臆          ・    "     *+ｵ 桶      
+   !       "     *+ｶ ｱ      
+   % $ Y ・         *ｴ kｰ         7 ・    "     *+ｵ kｱ      
+   A @ ・    &     
+**+ｷ Pｶ {ｱ      
+   L 	K H
+    v     2M+ﾆ -ｻ 9Y*ｶ ^+ｷ BMｧ W*ｻ 4Y ｷ A+ｶ Gｶ 狭 TMｧ ,ｰ     8    * 
+  Q S T U T W X +Y -T 0\ l ・    ・      ・*ｷ nｵ pｲ s*ｶ \ｶ w<ｧ *ｴ ・ ﾗ(`l`hO・*ｴ だ｡・ｶ eM,ﾆ *,ｶ *ｶ eM,ﾆ 
+*,ｶ |ｧ 	*ｶ |*ｶ eM,ﾆ *,ｶ }*ｶ eM,ﾆ 	*,ｶ ~ｱ*ｶ ~ｱ      Z   j k m n -m 9r @s Dt Iv Pw Tx Yw \z b| i} m~ r y・ }・ ・・ ・・ ・i n ・   M     ｩ<ｸ hｶ ・ｶ S・ ・
+ｽ ,Yｲ Kﾆ 	ｲ Kｧ ｸ IYｳ KSYｲ CSYｲ CSYｲ CSY ｲ CSYｲ CSYｲ CSY ｲ CSYｲ CSY	ｲ Lﾆ 	ｲ Lｧ ｸ IYｳ LSM<ｲ Jﾆ 	ｲ Jｧ ｸ IYｳ J,ｶ dWｧ 
+W<ｧ <ｬ   ・ ・ .    ・ "  ・ ・ ・ ・ ・ 0・ 3・ 6・ 9・ <・ ?・ B・ E・ H・ K・ N・ R・ U・ Y・ \・ `・ c・ g・ |・ ~・ ・ ・・ ・・ ・・ ・・ ・ ｢・ ･｡ ｧ｣ L    0     *+ｵ ・ｶ [+ｹ ・ ｱ         ｯ ｰ ｮ ｱ     "     *+ｶ tｱ      
+   ｹ ｸ ・     4     *ｴ mﾆ +*ｴ m*ｶ RWｱ         ｽ  ｾ ﾀ ・ ・    I     %*ｶ `ﾆ **ｴ kｸ 差 T*ｶ [*ｶ `*ｴ 音  ｬ         ﾋ  ﾌ ﾍ #ﾏ ・ ・    .     *ｶ `ﾆ *ｷ vｬ         ﾓ  ﾔ ﾕ ・ ・    #      *ｷ vｬ      
+   ﾙ ﾚ ・    I     *ｴ p・ ・ 
+*ｸ gｶ zｱ*ｸ ]ｶ zｱ         ﾞ  ﾟ 
+・ ﾟ ・ ﾝ  ・    J     *ｷ ;*ｵ ・ｵ p*
+ｼ
+ｵ ・ｵ ・            
+e g ｬ   B
+    2     *ｸ XｰLｻ 1Y+ｶ cｷ @ｿ      -        /     -   ､

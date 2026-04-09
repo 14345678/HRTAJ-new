@@ -1,0 +1,115 @@
+6ﾊｺｾ  -ﾜ         CGTW^_`dm・・・ｨｩｪｶﾆﾇﾉﾎﾖﾘﾛ B ・・・・・・・・・・・・・・・・・・・・・・・ ｡ ｢ ｣ ､
+  ｫ
+ / ｫ
+ 8 ｫ
+   ｬ
+ " ｭ
+ ) ｮ
+ ( ｯ
+ * ｰ
+ 4 ｱ
+ 2 ｲ
+ 7 ｲ
+ # ｳ
+ 9 ｴ
+ 7 ｵ
+ . ｶ
+ ( ｷ
+ 2 ｸ	  ｹ	   ｺ
+ ( ｻ	  ｼ	  ｽ	  ｾ
+ ! ｿ
+ ! ﾀ	   ﾁ
+ & ﾂ
+ & ﾃ
+ 1 ﾄ
+ & ﾅ
+ ' ﾆ
+  ﾇ
+ $ ﾈ
+   ﾉ
+ $ ﾊ
+  ﾋ
+  ﾌ
+ ! ﾍ
+  ﾎ
+ ' ﾏ
+   ﾐ
+ ' ﾑ
+ 8 ﾒ
+  ﾓ
+  ﾔ
+ ! ﾕ
+   ﾖ
+  ﾗ
+ ' ﾘ
+ * ﾙ
+ 9 ﾚ	 " ﾛ
+  ﾜ
+ ( ﾝ	  ﾞ
+ . ﾟ	  ・  ・  ・ . ・  ・ 9 ・ / ・   ・ 3 ・  ・ , ・ , ・  ・  ・ 5 ・ + ・ ! ・ & ・ % ・ & ・  ・  ・  ・ ! ・ 4 ・  ・  ・  ・  ・  
+ 4 	  
+ ( 
+ 
+ 4
+ $	 	 	 	  	 
+ 1	
+ 2
+
+ 7
+	 
+	 	 
+ /	 "              d@       @	!焄D-AAA!A#A'A-A3A6A8A:A>[\,]_KaKb?cIdKeJf f0gKh.i8j2k"lnopqrs;t)uvwx/yz={5|}~9/・・I・・･IｦｧNｨIｩQｫｬPｰｱｲKｳOｴ+ｵ4ｵ7ｶXｷXｸｹ1ｺｼ&ｽｾ*ｿ<ｿ>ﾀ6ﾁﾂ%ﾃMﾄZﾅLﾆIﾇIﾈﾉQﾊ$ﾋﾌﾍ4ﾎQﾏMﾐZﾑLﾒRﾓﾔﾕYﾖIﾘSﾙﾚI     ()I ()Ljava/applet/AppletContext; ()Ljava/awt/Container; ()Ljava/awt/Dimension; ()Ljava/awt/Frame; ()Ljava/awt/Graphics; ()Ljava/lang/String; ()Ljava/net/URL; ()V ()Z (D)D (I)Ljava/lang/StringBuffer; (I)V (II)I (II)Ljava/awt/Image; (II)V  (IIII)V 	(II[III)V (IZ)I (J)V (Ljava/awt/Color;)V (Ljava/awt/Component;)V (Ljava/awt/Event;II)Z '(Ljava/awt/Font;)Ljava/awt/FontMetrics; (Ljava/awt/Font;)V (Ljava/awt/Graphics;)V (Ljava/awt/Image;I)V (Ljava/awt/Image;IIII[III)V 3(Ljava/awt/Image;IILjava/awt/image/ImageObserver;)Z !(Ljava/awt/image/ImageObserver;)I 0(Ljava/awt/image/ImageProducer;)Ljava/awt/Image; (Ljava/lang/Object;)V (Ljava/lang/Object;)Z (Ljava/lang/Runnable;)V (Ljava/lang/String;)I &(Ljava/lang/String;)Ljava/lang/String; (Ljava/lang/String;)V (Ljava/lang/String;I)I (Ljava/lang/String;II)V 3(Ljava/lang/String;Ljava/awt/Font;)Ljava/awt/Image; '(Ljava/lang/String;Ljava/lang/String;)V 7(Ljava/lang/String;Ljava/lang/String;II)Ljava/awt/Font; (Ljava/net/URL;)V 2(Ljava/net/URL;Ljava/lang/String;)Ljava/awt/Image; #(Ljava/net/URL;Ljava/lang/String;)V (Z)Z <clinit> <init>  Circlet (Circlet ver.1.0 (C)Nakagawa Masami, 1999 Circlet.java Code 
+ConstantValue Error: status =  
+Exceptions I Ljava/applet/AppletContext; Ljava/awt/Color; Ljava/awt/Dimension; Ljava/awt/Image; Ljava/awt/MediaTracker; Ljava/io/PrintStream; Ljava/lang/Object; Ljava/lang/String; Ljava/lang/Thread; Ljava/net/URL; Loading image... LocalVariables 
+SourceFile 
+TimesRoman Z [D [I acos addImage append b  bgColor bi black checkAll cnt color  context 
+createImage cyan 	drawImage 
+drawString equals fillRect flush font getAppletContext 	getAscent  getBlue 
+getDescent getDocumentBase  getFont getFontMetrics getFrame 
+getGraphics getGreen 	getHeight getHours getImage getParameter 	getParent getRed getStringImage getWidth 
+grabPixels 
+hasMoreTokens height i ib image init 
+initPixels 
+isErrorAny java/applet/Applet java/applet/AppletContext java/awt/Color java/awt/Component java/awt/Dimension 
+java/awt/Font java/awt/FontMetrics java/awt/Frame java/awt/Graphics java/awt/Image java/awt/MediaTracker  java/awt/image/MemoryImageSource java/awt/image/PixelGrabber java/io/PrintStream java/lang/Integer java/lang/InterruptedException java/lang/Math java/lang/Object java/lang/Runnable java/lang/String java/lang/StringBuffer java/lang/System java/lang/Thread java/lang/Throwable java/net/MalformedURLException java/net/URL java/util/Date java/util/StringTokenizer margin max md merge  message message@ min  monitor 
+mouseEnter 	mouseExit  mouseUp 	nextToken notify orange out paint parseInt pause 	pauseMode printStackTrace  println  repaint run setColor 	setCursor  setFont showDocument 
+showStatus size sleep 
+sourceImage 	sourcePix 
+sourceSize spaces speed start status statusID step stop 
+stringWidth target 
+targetImage 	targetPix 
+targetSize thread 
+toLowerCase toString trans type update url wait width |     0   ﾃM    ﾏM    ﾄZ    ﾐZ    ﾅL    ﾑL    ﾒR    ｩQ    ｧN    ﾇI    cI    ﾕY    ･I    dK    _K    ﾖI    ｨI    ﾆI    ﾘS    ﾎQ    ﾉQ    ｶX    ｷX    eJ   ｬP    ・ E  2     ｲ vL+ﾂｲ z*ｶ ・ｶ fN-ﾆ .***ｶ ]-ｶ eｵ ・ｻ (Y*ｷ @ｵ r*ｴ r*ｴ ・ｶ I*ｵ t*ｶ fN-ﾆ 
+*-ｸ |ｵ ・
+ｶ fN-ﾆ *ｻ  Y-ｸ }ｷ =ｵ O*
+ｶ fN-ﾆ *ｻ  Y-ｸ }ｷ =ｵ K*ｶ fN-ﾆ 
+*-ｸ |ｵ 悉 8Yｷ <ｶ d6*ｻ 2Yｷ Cｶ Jｶ 惴 fN-ﾇ 
+*ｶ fN-ﾆ #*ｶ f:*	ｶ ^:**-ｶ iｵ ・ｶ fN-ﾆ 
+*-ｸ |ｵ ・ｶ fN-ﾆ &*-ｸ |ｵ s*ｴ s・ *ｵ s*ｴ sd､ 	*dｵ s*ｶ fN-ﾆ *-ｵ ・ｶ fN-ﾆ G*ｻ 7Y-ｷ Dｵ ｧ W*ｻ 7Y*ｶ ]-ｷ Gｵ ｧ 
+:ｶ **ｶ Yｵ P*ｴ 舵 **ｴ ｶ 攘 ・ｶ fN-ﾆ *-ｵ ・ｶ fN-ﾆ *-ｸ |・  ｧ ｵ **ｶ 卸 ・*ｴ 匐 ｢ｼ ｵ ・6ｧ &*ｴ ・ ｧ㌣*ｴ 匐 ｢㎜gｸ H ｩoR・*ｴ 匐 ｢｡ﾔ+ﾃｱ+ﾃｿ NZ] 6^nq 6 
+      s; E   ・      ・ﾆ ・ 9Y+ｷ F:ｶ l・ 	ｶ wMｶ l・ Fｶ wｶ ・
+ｶ V・ >ｧ -ｶ V・ >ｧ ｶ V・ 
+ｶ V・ >ｧ >ｶ l・ 
+ｶ wｸ |6d､  d6ｻ #Y,ｷ Eｰ      ~9 E   ・     z*,ｶ _N-+ｶ ・ｶ ・ｴ 刺`*ｴ p`6-ｶ Z-ｶ \`*ｴ p`6*ｶ Q:ｶ a:  *ｴ Kｶ ・ ｶ W ,ｶ ・ *ｴ Oｶ ・ +-ｶ \d*ｴ pldｶ Uｰ     ﾈ E   '     *ｴ 塢 *ｻ 4Y*ｷ Bｵ ・ｴ 垳 棲     ﾌ E         *ｴ 堡 *ｴ 垳 ・ｵ 坡      ・ E   ｲ 
+    夢 vL+ﾂ**ｴ 唆 ｢*ｴ 唆 mhｼ
+ｵ ・*ｴ 匐 ｢*ｴ 匐 mhｼ
+ｵ 仆 *Y*ｴ ・*ｴ 唆 ｢*ｴ 唆 m*ｴ ・*ｴ 唆 ｢ｷ AN-ｶ kWｧ 
+:ｶ **ｻ )Y*ｴ 匐 ｢*ｴ 匐 m*ｴ ・*ｴ 匐 ｢ｷ ?ｶ Rｵ ・ﾃｱ+ﾃｿ  X ] ` -  ・ ・     ｴ+ E   k     W*ｴ tﾆ 2+ｲ Lｶ ・*ｶ 俺 ｢*ｶ 俺 mｶ W+ｲ Sｶ ・*ｴ t
+ｶ Uｱ*ｴ 糧 *ｴ 柚,ﾂ+*ｴ ・ｶ TW,ﾃｱ,ﾃｿｱ  D P S     ﾗ+ E        *+ｶ {ｱ      ﾋ E  ｹ    ｭ*ｴ 唆 ｢=*ｴ 唆 m>*ｴ 匐 ｢6*ｴ 匐 m6*ｴ Kｶ h6*ｴ Kｶ b6 *ｴ Kｶ [66	ｧZ	hlh6
+6
+ｧ?・l・ｴ ・
+1kc・p6`・l・ｴ ・
+1kg・p6
+・ 	`6
+・ 	
+`6
+*ｴ ・
+`.6*ｴ ・
+
+`.6~z6~z6 ~6~z6~z6 ~6d*ｴ sdh*ｴ sh`dl6d*ｴ sd h*ｴ sh`dl6d*ｴ sdh*ｴ sh`dl6*ｴ 泅 3*ｴ ・
+	h`ｸ qx`ｸ qx`ｸ q`Oｧ 0*ｴ ・
+	h`ｸ ux`ｸ ux`ｸ u`O・
+｡ﾀ・	｡･*ｴ 慮 X*ｶ こ      u E   (     *L+ｶ gL+ﾁ %・ +ﾀ %ｰ+ﾁ !・・ｰ     ｯ( E   =     1*ｴ ﾆ +*ｴ 棉 *ｴ P*ｴ ｹ ・ ｧ *ｴ P*ｴ *ｴ 婿 ・ ｬ     ｮ( E   ;     /*ｴ ・ *ｵ ~*ｴ ﾆ 
+*ｶ `ｶ ・ｴ 柁 *ｴ Pｹ ・ ｬ     !ｭ( E   B     6*ｴ ・ *ｵ ~*ｶ x*ｴ ﾆ *ｶ `ｶ ・ｴ 柁 *ｴ P*ｴ 損 ・ ｬ     ｻ E   ・     ﾁ*ｴ rﾆ R*ｴ rｶ o・ $*ｻ 2Y ｷ C*ｴ rｶ 銚 Jｶ 愀 t*ｶ こ*ｴ rｶ M・ 
+*ｵ tｧ  ･ｸ 刊ｼL+ｶ ｧｴ*ｻ "Y*ｴ ・ｶ j*ｴ ・ｶ cｷ >ｵ ・ｶ n**ｴ Nｶ ・ｴ ・ "*L+ﾂ*ｴ ~・ *ｶ ｡ｧ N-ｶ +ﾃｧ +ﾃｿ ｣ｸ 刊 L+ｶ *Yｴ N*ｴ 汁ｵ Nｧｷ  E K N - ・ ・ ・ - ・ ・    ｣ ｩ ｬ -   ﾔ E        ｰ     A E   9     -*ｷ :*ｵ ・ｲ yｵ O*ｲ Lｵ K*2ｵ s*ｵ ・ｵ ~*ｵ ｱ     @ E         
+ｻ /Yｷ ;ｳ vｱ     V   D

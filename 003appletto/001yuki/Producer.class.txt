@@ -1,0 +1,20 @@
+ﾊｺｾ  - . Code 
+SourceFile 
+ConstantValue 
+Exceptions Z   Producer     java/awt/image/MemoryImageSource  	 Ljava/awt/image/ImageConsumer; b  
+	  
+ snowFX ,  	(II[III)V <init>  
+ 
+  I	   , 	   Z Z Z $(IILjava/awt/image/ColorModel;[III)V  
+ 
+  Z Z $(IILjava/awt/image/ColorModel;[BII)V  !
+ 
+ " Z Z !(Ljava/awt/image/ImageConsumer;)V 
+addConsumer ' &
+ 
+ ( Z 
+Producer.java a  ()Ljava/awt/image/ImageConsumer;    
+      
+   	 ,      , -          *ｴ ｰ                 *-ｷ ｱ                   *-ｷ ｱ       !     -     !ｲ 6 *-ｷ #ｲ ・ 
+・ ｳ ｱ     ! ' &          
+*+ｵ *+ｷ )ｱ          +
