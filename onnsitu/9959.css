@@ -1,0 +1,27 @@
+A:link {
+	COLOR: blue
+;}
+A:visited {
+	COLOR: #808080
+;}
+A:active {
+	COLOR: #cc6699
+;}
+A:hover {
+	COLOR: magenta
+;}
+A:link {
+	TEXT-DECORATION: none
+;}
+A:visited {
+	TEXT-DECORATION: none
+;}
+A:active {
+	TEXT-DECORATION: none
+;}
+A:hover {
+	TEXT-DECORATION: none
+;}
+CODE {
+	CURSOR: pointer
+;}
